@@ -1,0 +1,4 @@
+007	Headphone	3	5000.00
+008	Mattresses	5	6000.00
+009	Heater	3	1000.00
+010	Cookware	2	10000.00
