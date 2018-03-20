@@ -1,0 +1,8 @@
+﻿  Stock.cpp
+c:\users\nisal_dilshan\documents\visual studio 2017\projects\supermarket_cplusplus\supermarket_application\supermarket_application\stock.cpp(54): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  3 of 424 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SuperMarket_Application.vcxproj -> C:\Users\Nisal_Dilshan\Documents\Visual Studio 2017\Projects\SuperMarket_Cplusplus\SuperMarket_Application\Release\SuperMarket_Application.exe

@@ -36,7 +36,7 @@ void Stock::read_FromFile(string inputFileName) {
 					e.what();
 				}
 			}
-			
+			//cout << key<<" ";
 			stock_data.insert(pair<string, vector<string>>(key, temp_vec));
 		}
 	}
@@ -46,10 +46,12 @@ void Stock::read_FromFile(string inputFileName) {
 }
 
 void Stock::print_Stock() {
-	//map<int, int> m;
-	vector<string> v;
 	for (map<string, vector<string>>::iterator it = stock_data.begin(); it != stock_data.end(); ++it) {
-		v.push_back(it->first);
-		cout << it->first << endl;
+		cout << it->first << " ";
+		for (int i = 0; i < stock_data[it->first].size(); i++)
+		{
+			cout << stock_data[it->first][i] << " ";
+		}
+		cout << endl;
 	}
 }
