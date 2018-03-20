@@ -6,6 +6,7 @@
 #include <fstream> // ifstream
 #include <sstream> //istringstream
 
+
 using namespace std;
 
 class Stock {
